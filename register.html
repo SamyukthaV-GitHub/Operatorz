@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+    <form name="register">
+        <div class="form">
+        <h1 class="heading">Register</h1>
+        <input type="text" placeholder="name" autocomplete="off" class="name" id="name" name="name" required><br><br>
+        <input type="email" placeholder="email" autocomplete="off" class="email" id="email" name="email" required><br><br>
+        <input type="password" placeholder="password" autocomplete="off" class="password" id="password" name="password" required><br><br>
+        <button class="submit-btn" onClick="validate()">register</button><br><br>
+        <a href="index.html" class="link">already have an account ? log in here</a><br><Br>
+    </div></form>
+    <div id="final"><p>Designed By:<em><a href="done_by.html">Samyuktha V  </a></em></p></div>
+
+    <script>
+        function validate(){
+            var n=document.register.name.value;
+            var p=document.register.password.value;
+            if (p.length<8)
+                alert("Pasword must be greater than 8");
+            else{
+                const usern=JSON.parse(localStorage.getItem("user_name")) || [];
+                const pword=JSON.parse(localStorage.getItem("passw")) || [];
+                if(usern.indexOf(n)==-1){
+                    usern.push(n);
+                    pword.push(p);
+                    localStorage.setItem('user_name',JSON.stringify(usern));
+                    localStorage.setItem('passw',JSON.stringify(pword));
+                    alert("Register is Successful")
+                    window.open("index.html")
+                    //window.location.href="index.html";
+                }
+                else{
+                    alert("Username already exists");
+                    window.open("index.html")
+                    //window.location.href="index.html";
+                }
+                localStorage.setItem('user_name',JSON.stringify(usern));
+                localStorage.setItem('passw',JSON.stringify(pword));
+        }
+    }
+    </script>
+    
+</body>
+</html>

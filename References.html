@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>References</title>
+<link rel = "stylesheet" type = "text/css" href = "styles.css">
+</head>
+<body onload=display_ct();>
+<header>
+    <div>
+        <div class="header">OPERATORZ</div>
+        <div><span id='ct' ></span></div>
+    </div>
+</header>
+<nav class="topnav">
+    <a href="home.html">Home</a>
+    <a href="arithemetic operators 1.html">Arithmetic operators</a>
+    <a href="comparison operators.html">Comparison Operators</a>
+    <a class="split" href="index.html">Logout</a>
+</nav>
+<b><centre>
+<div><h1 class="head">REFERENCES</h1></div><br>
+<h2>Websites</h2><br>
+<ul>
+    <li><a href="https://www.w3schools.com/html/">w3schools</a></li>
+    <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy</a></li>
+    <li><a href="https://www.freecodecamp.org/news/tag/html/">freecodecamp</a></li>
+</ul>
+<h2>Youtube links</h2><br>
+<ul>
+    <li><a href="https://www.youtube.com/playlist?list=PLWKjhJtqVAbnSe1qUNMG7AbPmjIG54u88">freeCodeCamp</a></li>
+    <li><a href="https://www.youtube.com/watch?v=7mdEvKyLoYM">Simplilearn</a></li>
+</ul></centre></b>
+
+<footer class="footer">
+    <table class="table" width="100%">
+        <tr><th><h2><a href="References.html">References</a></h2></th>
+            <th><h2>Contact</h2></th></tr>
+        <tr><td >Books</td><td>Mail id: queriesandinfo@gmail.com</td></tr>
+        <tr><td>Materials</td><td>Phone number: 2378 2278</td></tr>
+        <tr><td>Resources</td><td>2378 2378</td></tr>
+    </table>
+</footer>
+<div id="final"><p>Designed By:<em><a href="done_by.html">Samyuktha V</a></em></p></div>
+
+<script>
+function display_c(){
+    var refresh=1000; // Refresh rate in milli seconds
+    mytime=setTimeout('display_ct()',refresh)
+}
+function display_ct() {
+    var x = new Date()
+    document.getElementById('ct').innerHTML = x;
+    display_c();
+}
+</script>
+</body>
+</html>

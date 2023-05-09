@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Done By</title>
+    <link rel="stylesheet" type="text/css" href="done_by.css">
+    </head>
+    <body>
+        <div><span id='ct' ></span></div>
+        <nav class="topnav"><a href="home.html">Home</a>
+            <a href="arithemetic operators 1.html">Arithematic operators</a>
+        <a href="comparison operators.html">Comparison Operators</a>
+        <a class="split" href="index.html">Logout</a>
+      </nav>
+        <div>
+            <p class="head">Designed By</p>
+        </div>
+        <div class="card">
+            <div class="img">
+            <img src="WhatsApp Image 2023-05-01 at 09.46.40.jpg">
+            </div>
+            <div class="container">
+                <h1>SAMYUKTHA V</h1>
+                <p class="title">Web Developer</p>
+                <p>I am an enthusiastic person. I am open to learning new things. I socialise with people well. I am a very patient person, a good observer and listener. I have learnt python and I am learning C. I am interested in web development and front end development.</p>
+                <h3>Contact:</h3>
+                <p>samyugv2004@gmail.com</p>
+            </div>
+        </div>
+        <script>
+            function display_c(){
+    var refresh=1000; // Refresh rate in milli seconds
+    mytime=setTimeout('display_ct()',refresh)
+    }
+    
+    function display_ct() {
+      var x = new Date()
+    document.getElementById('ct').innerHTML = x;
+    display_c();
+     }
+           </script>
+    </body>
+</html>

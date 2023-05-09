@@ -1,0 +1,124 @@
+header {
+    background-color:dimgray;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+p{
+    text-align: center;
+    text-transform: initial;
+    padding: 30px;
+    font-size:xx-large;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?auto=compress&cs=tinysrgb&w=6000);
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: #666;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.footerleft{
+    text-align:left;
+}
+.footerright{
+    text-align: right;
+}
+.topnav {
+    overflow: hidden;
+    background-color:#e0e0e0;
+    position:relative;
+}
+.topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 25px 80px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.split{
+    float: right;
+}
+.topnav a:hover{
+    background-color: black;
+    color:white;  
+}
+td{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#ct{
+    font-size:medium;
+    float:right;
+}
+.secmain{
+    position:relative;
+    width:fit-content;
+    height:fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    overflow:anywhere;
+    overflow-wrap: break-word;
+}
+.secmain>div{
+    position:relative;
+    width: fit-content;
+    height:max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,.6);
+    margin: 5px;
+    color: antiquewhite;
+}
+.secmain>div:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.footer {
+    background-color:rgba(0,0,0,.5);
+}
+.table{
+    color: beige;
+    font-size: large;
+  }
+#final{
+    text-align: right;
+    margin-top: 0%;
+    color: goldenrod;
+    background-color: aliceblue;
+    font-size:medium;
+    width:97%;
+    height:fit-content;
+    text-decoration: underline;
+    
+  }
+a:hover{
+    text-decoration: underline;
+    color: red;
+    background-color:black;
+}
+.head{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: Lucida Calligraphy;
+    color:darkred;
+    font-size: 50px;
+  }
+  

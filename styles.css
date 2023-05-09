@@ -1,0 +1,93 @@
+a { text-decoration: none }
+a:hover{
+  text-decoration: underline;
+  color: red;
+  background-color:black;
+}
+body{
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700360787.jpg);
+  background-size: cover;
+  text-align: center;
+}
+h1{
+  color:black;
+  font-size: 20pt;
+  text-align: center;
+}
+header {
+  background-color:rgba(0,0,0,.5);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Comic Sans MS;
+}
+.footer {
+  background-color:rgba(0,0,0,.5);
+  padding: 30px;
+  text-align: center;
+}
+.table{
+  color: beige;
+  font-size: large;
+}
+.topnav {
+  overflow: hidden;
+  background-color:rgb(74,74,74);
+  position:relative;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 100px;
+  font-size: 17px;
+}
+.topnav a.split{
+  float: right;
+}
+td{
+  text-align: center;
+}
+input{
+  padding: 20px;
+  font-size: large;
+}
+th{
+  color: #b3024d;
+  font-size:x-large;
+}
+h1{
+  font-size:50px;
+  color: rgb(46,12,74);
+}
+#ct{
+  font-size:medium;
+  float:right;
+}
+#final{
+  text-align: right;
+  color: goldenrod;
+  background-color: aliceblue;
+  width: 100%;
+  text-decoration: underline;
+}
+.head{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: Lucida Calligraphy;
+  color:darkred;
+}
+form{
+  margin-top:0%;
+}
+h2{
+  color:#b3024d;
+  font-size: xx-large;
+}
+li a{
+  font-size: x-large;
+}
+
+  
+  
